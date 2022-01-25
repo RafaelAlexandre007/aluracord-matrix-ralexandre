@@ -68,7 +68,7 @@ export default function PaginaInicial() {
                         onSubmit={function (infosDoEvento) {
                             infosDoEvento.preventDefault();
                             console.log('Alguém submeteu o form');
-                            roteamento.push('/chat');
+                            roteamento.push('https://github.com/RafaelAlexandre007/aluracord-matrix-ralexandre');
                             // window.location.href = '/chat';
                         }}
                         styleSheet={{
